@@ -11,7 +11,9 @@ pipeline {
 
         stage('echo') {
           steps {
-            sh 'echo "This is first step towards the moon"'
+            sh '''#!/bin/bash
+
+echo "Hello This is first step towards the moon"'''
           }
         }
 
