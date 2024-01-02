@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('echo') {
           steps {
             sh 'echo "This is first step towards the moon"'
           }
