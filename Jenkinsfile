@@ -17,6 +17,15 @@ echo "Hello This is first step towards the moon"'''
           }
         }
 
+        stage('test') {
+          steps {
+            timestamps() {
+              echo 'tetsing'
+            }
+
+          }
+        }
+
       }
     }
 
